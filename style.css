@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.merriweather-regular{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+/* universal seletor */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common heading styles */
+.common-h1 {
+    margin: 1.2rem;
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.common-h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-weight: 600;
+    margin: 0.8rem;
+}
+
+.common-h6 {
+    font-size: 1rem;
+}
+
+.white {
+    color: white;
+}
+
+.red {
+    color: red;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    margin: 4rem;
+}
+.normal-text{
+    margin: 1.2rem;
+}
+.common-h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+.btn{
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+    color: white;
+    border-radius: 0.3rem;
+}
+/* header styles */
+header {
+    text-align: center;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("images/Banner\ Image.png");
+    width: 50%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 8rem 12rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.8rem;
+}
+
+/* main styles */
+main {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/* main-discount section */
+.discount-section {
+    text-align: center;
+}
+.new-year-img {
+    width: 40%;
+    height: 40%;
+    margin: 3rem;
+}
+
+/* welcome section */
+.welcome-section{
+    width: 80%;
+    height: 70vh;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("images/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.new-year-number-img{
+    width: 30%;
+    height: 70%;
+    margin: 8rem ;
+}
+.welcome-section div{
+    padding: 5rem;
+    text-align: left;
+}
+/* location section */
+.location-section{
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 5rem;
+    border-radius: 0.8rem;
+}
+/* coming soon section */
+.child{
+    width: 33%;
+}
+.comming-soon-section>div{
+    text-align: left;
+}
+.comming-soon-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.friends-img{
+    padding: 2rem;
+    width: 70%;
+    height: 70%;
+    border: 1rem solid red;
+    border-radius: 50%;
+}
+/* holidays section styles */
+.holidays-section{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.holidays-section .first{
+    text-align: center;
+    padding: 0 5rem 0 5rem;
+}
+.holidays-section .second{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    border: 2px solid blue;
+}
+.holidays-section .second>img{
+    width: 30%;
+    height: 30%;
+    background-color: white;
+}
+.holidays-section .second .discount-img{
+    width: 20%;
+    height: 20%;
+}

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-.merriweather-regular{
+.merriweather-regular {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
@@ -40,6 +40,11 @@
     font-size: 1rem;
 }
 
+.common-h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 .white {
     color: white;
 }
@@ -47,20 +52,24 @@
 .red {
     color: red;
 }
-.links{
+
+.links {
     color: white;
     text-decoration: none;
     margin: 4rem;
 }
-.normal-text{
+
+.normal-text {
     margin: 1.2rem;
 }
-.common-h4{
+
+.common-h4 {
     font-size: 1.2rem;
     font-weight: 600;
     margin: 1rem;
 }
-.btn{
+
+.btn {
     background-color: red;
     border: none;
     cursor: pointer;
@@ -68,6 +77,7 @@
     color: white;
     border-radius: 0.3rem;
 }
+
 /* header styles */
 header {
     text-align: center;
@@ -93,6 +103,7 @@ main {
 .discount-section {
     text-align: center;
 }
+
 .new-year-img {
     width: 40%;
     height: 40%;
@@ -100,7 +111,7 @@ main {
 }
 
 /* welcome section */
-.welcome-section{
+.welcome-section {
     width: 80%;
     height: 70vh;
     background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("images/Vectorrr.png");
@@ -112,59 +123,69 @@ main {
     display: flex;
     justify-content: space-between;
 }
-.new-year-number-img{
+
+.new-year-number-img {
     width: 30%;
     height: 70%;
-    margin: 8rem ;
+    margin: 8rem;
 }
-.welcome-section div{
+
+.welcome-section div {
     padding: 5rem;
     text-align: left;
 }
+
 /* location section */
-.location-section{
+.location-section {
     width: 80%;
     height: 40vh;
     margin: auto;
-    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
     text-align: center;
     margin-top: 2rem;
     padding-top: 5rem;
     border-radius: 0.8rem;
 }
+
 /* coming soon section */
-.child{
+.child {
     width: 33%;
 }
-.comming-soon-section>div{
+
+.comming-soon-section>div {
     text-align: left;
 }
-.comming-soon-section{
+
+.comming-soon-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     margin: auto;
 }
-.friends-img{
+
+.friends-img {
     padding: 2rem;
     width: 70%;
     height: 70%;
     border: 1rem solid red;
     border-radius: 50%;
 }
+
 /* holidays section styles */
-.holidays-section{
+.holidays-section {
     width: 80%;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 7rem;
     margin-bottom: 5rem;
 }
-.holidays-section .first{
+
+.holidays-section .first {
     text-align: center;
     padding: 0 5rem 0 5rem;
 }
-.holidays-section .second{
+
+.holidays-section .second {
     display: flex;
     height: 500px;
     justify-content: space-around;
@@ -173,16 +194,133 @@ main {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
-    border: 2px solid blue;
 }
-.holidays-section .second>img{
+
+.holidays-section .second>img {
     width: 200px;
     height: 200px;
     background-color: white;
     margin-top: 4rem;
 }
-.holidays-section .second .discount-img{
+
+.holidays-section .second .discount-img {
     width: 200px;
     height: 200px;
     margin-top: 4rem;
 }
+
+/* gift section styles */
+.gift-section {
+    width: 80%;
+    margin: auto;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gift-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-gift {
+    margin: 0.7rem;
+    width: 33%;
+    height: 33%;
+}
+
+/* newsletter section */
+.newsletter-section {
+    width: 80%;
+    margin: auto;
+    margin-top: 2.5rem;
+    text-align: center;
+    border-radius: 0.8rem;
+    padding: 1rem 5rem 5rem 2.5rem;
+    background-color: rgba(255, 0, 0, 0.096);
+}
+
+.email-icon {
+    width: 100px;
+    height: 100px;
+}
+
+#input-email {
+    width: 300px;
+    height: 40px;
+    padding: 0.2rem 0.5rem 0.2rem 0.8rem;
+    border: none;
+    outline: none;
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+
+#subscribe-btn {
+    width: 100px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+    color: white;
+    background-color: red;
+    border-radius: 0 1.5rem 1.5rem 0;
+    cursor: pointer;
+}
+
+/* footer starts here */
+footer {
+    width: 100%;
+    background-color: #070211;
+    margin-top: 2.5rem;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 3rem 10rem 1rem 10rem;
+}
+
+.footer-div-social {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+}
+
+.social-icons {
+    width: 50px;
+    height: 50px;
+    margin: 0.2rem;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+    color: #ffffff23;
+}
+
+.footer-div-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem 2rem 7rem;
+}
+
+.footer-div-last a {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer ends here */

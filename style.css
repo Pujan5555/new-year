@@ -166,7 +166,9 @@ main {
 }
 .holidays-section .second{
     display: flex;
+    height: 500px;
     justify-content: space-around;
+    align-items: start;
     background-image: url("images/Rectangle\ 2.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -174,11 +176,13 @@ main {
     border: 2px solid blue;
 }
 .holidays-section .second>img{
-    width: 30%;
-    height: 30%;
+    width: 200px;
+    height: 200px;
     background-color: white;
+    margin-top: 4rem;
 }
 .holidays-section .second .discount-img{
-    width: 20%;
-    height: 20%;
+    width: 200px;
+    height: 200px;
+    margin-top: 4rem;
 }
